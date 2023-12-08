@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Sistema de Compra de Passagens</title>
+</head>
+<body>
+   
+  <h1>Bem-vindo ao Sistema de Compra de Passagens</h1>
+<div id="viagem">
+ <label for="destino">Escolha o Destino:</label>
+  <select id="destino">
+    <option value="1">Nárnia</option>
+    <option value="2">Hogwarts</option>
+    <option value="3">Grand Line</option>
+    <option value="4">Pousada Sekizenkan</option>
+  </select>
+  <br />
+  <br />
+
+  <label for="horario">Escolha o Horário:</label>
+  <select id="horario">
+    <option value="morning">Manhã</option>
+    <option value="afternoon">Tarde</option>
+    <option value="evening">Noite</option>
+  </select>
+  <br />
+  <br />
+
+
+
+  <label for="saldo">Seu Saldo:</label>
+  <input type="number" id="saldo" placeholder="Informe seu saldo" />
+  <br />
+  <br />
+
+
+ <button Onclick="comprarPassagem()">Comprar Passagem</button>
+ <br />
+ <br />
+</div>
+
+<br />
+ <br />
+<div id="cuidado">
+<h1>Cuidado:</h1>
+<p>Não é necessário apresentar passaporte</p>
+<p>Viagens propensas a danos físicos e mentais,</p>
+<p>É obrigatório apresentar seguro de vida e plano de saúde,</p>
+<p>Não nos responsabilizamos por qualquer problema causado durante a viagem</p>
+</div>
+   
+
+
+  <script src="script.js"></script>
+</body>
+</html>
